@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Absolute Fitness</title>
+</head>
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhai&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* CSS Reset */
+    body {
+        font-family: 'Baloo Bhai', cursive;
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        ;
+    }
+/* 
+    .left {
+        display: inline-block;
+        border: 2px solid red;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+    } */
+
+    /* .left img {
+        width: 136px;
+        filter: invert(100%);
+    } */
+
+    /* .left div {
+        line-height: 19px;
+        font-size: 26px;
+        text-align: center;
+    } */
+
+    .mid {
+        display: block;
+        width: 100%;
+        margin: 0px auto;
+        color: white;padding:0px
+        ;
+        /* border: 2px solid green; */
+    }
+
+    /* .right { */
+        /* position: absolute; */
+        /* right: 34px; */
+        /* top: 43px; */
+        /* display: inline-block; */
+        /* border: 2px solid yellow; */
+    /* } */
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 40px;padding: 0px 40px 0px 0px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 10px 20px 10px 0px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: yellow;
+
+    }
+
+
+    
+
+    
+    
+
+    .container {
+        
+        margin: 10px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        font-family: 'Baloo Bhai', cursive;
+        text-align: center;
+        display: block;
+        width: 508px;
+        
+        ;
+        margin: 11px auto;
+        font-size: 25px;
+    
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 74%;
+        margin: 20px auto;
+    }
+    body{background: url("gym\ website\ 2.jpg"); background-position: scroll; background-repeat: no-repeat; background-size: cover;}
+    .hi{text-align: center;}
+    .vi{font-size: 60px; margin-bottom: 0px; margin-top: 0px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;text-shadow: 20px 20px 20px
+    20px red;}
+    .sheraz{font-size: 30px; color: black; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+    /* .latest event {border: 2px solid ;} */
+    .heading{text-align: center;}
+    .information,h3{border: 2px solid; text-align: left; font-size: larger; height: 200px;}
+    fieldset{color: black;}
+    .yursil{display: block;text-align: left;}
+    .video{display: block; margin: left 0px;border: 2px;margin-right: 100px;width: 80%;}
+    .thought{color: red; font-size: 50px; font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;}
+    
+</style>
+
+<body>
+    <header class="hi">
+        <!-- Left box for logo -->
+        <!-- <div class="left"></div>  -->
+            <!-- <img src="img/gym.png" alt=""> -->
+            <h1 class="vi"><em>ABSOLUTE FITNESS </em> </h1>
+        </div>
+        <!-- Mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="web.html" target="_blank"> <em>HOME</em></a></li>
+                <li><a href="about us.html" target="_blank"><em>ABOUT US</em></a></li>
+                <li><a href="Workout.html" target="_blank"><em>WORKOUT</em></a></li>
+                <li><a href="nutrition.html" target="_blank"><em>NUTRITION</em></a></li>
+                <li><a href="diettrainer.html" target="_blank"><em>DIET TRAINER</em></a>
+                </li>
+                <li><a href="contact.html" target="_blank"><em>CONTACT US</em></a></li>
+            </ul>
+            <div><h1 class="thought"><em> WORK HARD NEVER GIVE UP </em></h1></div>
+        </div>
+
+        <!-- Right box for buttons -->
+        <!-- <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div> -->
+    </header>
+    <div class="container">
+        
+        <form action="noaction.php" autocomplete="on">
+            <fieldset>
+                <legend class="sheraz"> JOIN THE ABSOLUTE FITNESS NOW-</legend>
+            
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+                <input type="reset" id="reset"> <input type="submit" id="submit">
+            </div>
+
+            
+            </fieldset>
+        </form> <br><br><br>
+        <!-- <p class="yursil">Lorem ipsum dolor sit amet consectetur adipisicing elit. Id magni, nihil facilis, laudantium doloribus minus itaque deleniti dolorum hic iste necessitatibus impedit, dignissimos consequuntur mollitia. Quod quibusdam in eaque iste!</p> -->
+
+    <div class="video">
+ <iframe width="1200px" height="500px" src="https://www.youtube.com/embed/X_9VoqR5ojM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
+</body>
+
+</html>
